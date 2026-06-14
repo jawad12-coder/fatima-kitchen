@@ -1,0 +1,34 @@
+    ┌────────────────────────────────────────┐
+                  │          GLOBAL DESIGN SYSTEM          │
+                  │   (Midnight Theme + Glassmorphism UI)  │
+                  └───────────────────┬────────────────────┘
+                                      │
+         ┌────────────────────────────┼────────────────────────────┐
+         ▼                            ▼                            ▼
+┌──────────────────┐        ┌──────────────────┐        ┌──────────────────┐
+│    FRONT-END     │        │    DATA ENGINE   │        │     DELIVERY     │
+│  ROUTING LAYOUT  │        │  (State Control) │        │ (External APIs)  │
+├──────────────────┤        ├──────────────────┤        ├──────────────────┤
+│ 🔹 index.html    │◄──────►│ 🔹 Dynamic Menu  │◄──────►│ 🔹 WhatsApp API  │
+│ 🔹 products.html │        │    JS Array      │        │    (+92 Phone)   │
+│ 🔹 about.html    │        │                  │        │                  │
+│ 🔹 contact.html  │        │ 🔹 Live Cart     │        │ 🔹 Replit AI     │
+│ 🔹 shop.html     │        │    Calculations  │        │    Image Engine  │
+└────────┬─────────┘        └────────┬─────────┘        └──────────────────┘
+         │                           │
+         └─────────────┬─────────────┘
+                       ▼
+        ┌──────────────────────────────┐
+        │ 🕮 INTERACTIVE MANUAL         │
+        │ • Inline Price Adjustment    │
+        │ • Asset Asset Mapping        │
+        │ • Python / SQL Scale Path    │
+        └──────────────────────────────┘
+🕮 Web Operations Manual (Summary of Future Adjustments)Here is your quick-reference sheet to manipulate the design as your system evolves:How to Modify Prices and Add ProductsAll products are driven by a centralized JavaScript structure inside your application. To update any item price or change a title, search your code for the menu data array (const products = [...]) and adjust the target value fields directly:  JavaScript{
+  id: "aloo-samosa",
+  name: "Aloo Samosa",
+  price: 220, // To change price, update this number directly
+  category: "samosas",
+  image: "images/samosa-card.jpg" // Point this path to your new AI generated image
+}
+Changing Contact and WhatsApp SettingsIf you ever change your primary business telephone lines or location routes, you can change them globally inside your core validation scripts or form handlers:  WhatsApp Phone Target: Locate the form submission block inside script.js and modify the string literal variable const whatsappNumber = "923075161533";.  Business Hours and Emails: Directly swap out strings inside the header or footer grids across the HTML documents to modify text blocks like info@fatimaskitchen.pk safely.  

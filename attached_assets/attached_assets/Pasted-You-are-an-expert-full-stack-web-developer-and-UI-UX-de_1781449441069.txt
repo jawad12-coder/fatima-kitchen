@@ -1,0 +1,49 @@
+You are an expert full-stack web developer and UI/UX designer. Build a highly polished, premium, modern web application for "Fatima's Kitchen" based on the provided files (index, products, contact, shop, styles, shop.css, script.js).
+
+Transform this project into an absolute state-of-the-art interactive experience using an advanced dark-theme layout, high-density modular architecture, glassmorphism UI elements, smooth state management, and real-time validation.
+
+### 1. CORE ARCHITECTURAL OVERHAUL
+- Maintain the lightweight multi-page vanilla HTML/CSS/JS baseline setup, ensuring optimized routing across index.html, products.html, about.html, contact.html, and shop.html.
+- Incorporate a centralized structural design theme with a premium midnight aesthetic using modern CSS design tokens:
+  * Primary Accent: #ff6b35 (Vibrant Orange) with an elegant neon glow effect (rgba(255, 107, 53, 0.25)).
+  * Background Layers: Multi-layered dark surface tracking (#0d1117 to #0a0e14).
+  * Card Surfaces: High-contrast glassmorphism containers (#161b22) with subtle white borders (rgba(255,255,255,0.08)).
+- Standardize the navigation menu layout globally across every page. The dynamic nav structure must contain:
+  * Home | Products | About | Contact | Order 🛒
+  * Ensure the shopping cart badge syncs fluidly with local state across pages.
+
+### 2. AI IMAGE PRODUCTION & IMAGE MANAGEMENT
+- Do not use broken external asset paths or stock photo placeholders.
+- Leverage Replit's built-in AI image generation engine to generate high-fidelity, professional food photography for all menu assets.
+- For all images, generate and explicitly reference clean, optimized filenames or declare specific descriptive prompts for Replit AI to output directly into the workspace folder (e.g., matching the asset structures like 'image_36e620.jpg' or creating customized 'images/samosa-hd.jpg').
+- Generate stunning visuals for the following exact menu lineup items:
+  1. Aloo Samosa      2. Aloo Roll          3. Vegetable Roll
+  4. Chicken Roll     5. Vegetable Samosa   6. Macaroni Samosa
+  7. Chicken Macaroni 8. Chicken Shami      9. Chicken Nuggets
+  10. Beef Kofta      11. Chicken Kofta     12. Chicken Samosa
+  13. Beef Shami      14. Seekh Kabab
+- Ensure all AI images feature professional studio lighting, dark neutral backgrounds matching the web style theme, and ultra-crisp appetizing presentation.
+
+### 3. ADVANCED SHOPPING CART ENGINE & WHATSAPP API
+- Optimize the logic within the shopping cart page (shop.html / shop.css) to act as a robust dynamic application layout.
+- The cart system must support real-time state tracking: recalculating subtotal and total values in PKR instantly upon addition, removal, or manual quantity updates (+/- increments).
+- Enhance the Checkout Modal to capture client data flawlessly (Full Name, Contact Number, Email Address, and Delivery Address).
+- Generate a beautifully formatted WhatsApp payload upon order finalization. The system must automatically build a clean URI encoding mapping:
+  * Destination Number: +92 307 5161533
+  * Text Output: A highly organized receipt breaking down item names, counts, individual prices, total cost, and client destination details for an effortless checkout loop.
+
+### 4. USER REVIEWS ENGINE (GOOGLE MAPS OPTIMIZATION)
+- Build a dedicated, highly interactive "Customer Experiences & Reviews" section onto the index landing dashboard.
+- Since our local operations thrive on verified Google Business and Maps data in Rawalpindi, create an stylized grid display mirroring active live map profile feedback.
+- Design these cards with real-world formatting aesthetics: user avatars, star rating counters (5-star scaling), timestamp markers, and a "Verified Rawalpindi Order" tag.
+- Include interactive micro-interactions (e.g., hover scaling, glowing borders, filter filters by top ratings) to elevate the professional production look.
+
+### 5. INTEGRATED INTERACTIVE OPERATION MANUAL
+- Create an intuitive, beautifully designed interactive slide-out panel, modal, or standalone documentation widget directly within the interface titled "🕮 Web Operations Manual".
+- This manual must explicitly guide non-technical users on exactly how the website works and how to execute future changes easily.
+- Structure the guide with clean subheadings and interactive accordions containing:
+  * [System Overview]: Explaining how the HTML5 routing architecture links page views seamlessly.
+  * [Menu & Pricing Edits]: Providing clear inline code snippets showing non-technical staff exactly where to update item names or PKR prices in the JavaScript array.
+  * [Visual Asset Upgrades]: Outlining how to swap out image paths or re-run Replit AI commands to refresh menu photos.
+  * [Contact & Route Configuration]: Detailing how to adjust business hours, email properties, or target WhatsApp phone strings safely without breaking the scripts.
+  * [Roadmap Enhancements]: Highlighting structured paths to shift this setup seamlessly into full-stack database integrations (such as Python Flask, Django, or SQL server engines) in the future.
